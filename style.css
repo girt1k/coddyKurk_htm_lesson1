@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: --;
+    font-size: 32px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*размешение по экрану*/
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #16247, #0c1628)
+}
+ul{
+    position: relative;
+    transform: skewY(-15deg)
+}
+ul li{
+    position: relative;
+    list-style: none;
+    width: 250px;
+    background: #0f4382;
+    padding: 15px;
+    z-index: var(--i);
+   transition: .5s
+}
+ul li:hover{
+    background: #0f52a4;
+    transform: translateX(25px);
+        box-shadow: inset 0 0 50px #0f52a4, inset 20px 0 80px #096de9, inset -20px 0 80px #0f52a4, inset 20px 0 300px #096de9, inset -20px 0 300x #0f52a4, 0 © 50px #0f52a4, 10px 0 80px #096de9, 10px 0 80px #0f52a4
+}
+ul li:hover
