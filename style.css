@@ -1,8 +1,15 @@
+@font-face{
+    font-family: 'Comforta';
+    font-style: normal;
+    font-weight:360;
+    src: url(s/comfortaa/v40/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4TbMPrQ.ttf)
+    format('truetype')
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: --;
+    font-family: Comforta;
     font-size: 32px;
 }
 
@@ -30,6 +37,18 @@ ul li {
     padding: 15px;
     z-index: var(--i);
     transition: .5s
+}
+
+ul li img{
+    position: absolute;
+    left: -35px;
+    bottom: 10px;
+    width: 29px;
+    height: 70%;
+    transform-origin: right;
+    transform: skewY(45deg)
+
+
 }
 
 ul li:hover {
@@ -76,7 +95,7 @@ ul li::after {
 }
 
 ul li a {
-    /*    text-decoration: none;*/
+    text-decoration: none;
     color: #b7b7b7;
     display: block;
     letter-spacing: .05em;
@@ -92,9 +111,11 @@ ul li:last-child:after {
 }
 
 .n2 {
-    margin-left: 100%;
+    margin-left: 50%;
+/*    left: 10vh*/
 }
 
 .n1 {
-    margin-left: 400px;
+    margin-left: 200px;
 }
+
