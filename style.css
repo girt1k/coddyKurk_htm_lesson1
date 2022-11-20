@@ -24,7 +24,7 @@ body {
     background: linear-gradient(to bottom right, rgba(22, 41, 71, 0.88), #0c1628)
 }
 
-ul: {
+ul {
     position: relative;
     transform: skewY(-15deg)
 }
@@ -111,11 +111,11 @@ ul li:last-child:after {
 }
 
 .n2 {
-    margin-left: 50%;
+    margin-left: 20%;
 /*    left: 10vh*/
 }
 
 .n1 {
-    margin-left: 199px;
+    margin-left: 100px;
 }
 
